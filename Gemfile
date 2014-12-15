@@ -38,3 +38,17 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'mysql2', '~> 0.3.15'
+gem 'haml-rails'
+gem 'bootstrap-sass', '= 3.1.1.0'
+gem "font-awesome-rails"
+gem 'routing-filter', :git => 'http://github.com/svenfuchs/routing-filter'
+gem 'http_accept_language'
+gem 'globalize', '~> 4.0.2'
+gem 'devise'
+gem 'devise-i18n-views'
+gem "i18n-js"
+
+group :development do
+  gem "html2haml"
+end

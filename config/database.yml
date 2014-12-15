@@ -10,8 +10,15 @@ default: &default
   timeout: 5000
 
 development:
-  <<: *default
-  database: db/development.sqlite3
+   adapter: mysql2
+   encoding: utf8
+   database: rails-skeleton
+   pool: 10
+   username: root
+   password: root
+   socket: /var/run/mysqld/mysqld.sock
+   reconnect: true
+   host: localhost
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".

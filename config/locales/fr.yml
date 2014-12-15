@@ -17,12 +17,12 @@
 # This would use the information in config/locales/es.yml.
 #
 # To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
+# available at http://guides.rubyonrails.org/i18n.html
 
-en:
+fr:
   layout:
     application:
       title: "Application"
   welcome:
-      index:
-        hello: "Hello"
+    index:
+      hello: "Bonjour"
