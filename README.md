@@ -8,3 +8,4 @@ Quick start
 
 git clone --depth 1 git@github.com:beaudenon/rails-skeleton.git --origin rails-skeleton [YOUR-NEW-PROJECT]
 
+-----------
